@@ -1,0 +1,12 @@
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile_ou_face.Form1.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile_ou_face.Form2.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile_ou_face.Form3.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile_ou_face.Resources.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile ou face.vbproj.GenerateResource.Cache
+C:\Users\carl\Desktop\USB\Logiciel créé par moi\Pile ou face\Pile ou face.exe
+C:\Users\carl\Desktop\USB\Logiciel créé par moi\Pile ou face\Pile ou face.pdb
+C:\Users\carl\Desktop\USB\Logiciel créé par moi\Pile ou face\Pile ou face.xml
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile_ou_face.Form4.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile ou face.exe
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile ou face.xml
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Release\Pile ou face.pdb

@@ -1,0 +1,24 @@
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form1.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form2.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Resources.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbproj.GenerateResource.Cache
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form3.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form4.resources
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.exe
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.pdb
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.xml
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.exe
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.xml
+C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.pdb
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.exe
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.xml
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.pdb
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.exe
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.pdb
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.xml
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form1.resources
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form2.resources
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form3.resources
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form4.resources
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Resources.resources
+C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbproj.GenerateResource.Cache
