@@ -68,6 +68,7 @@
         Label15.Text = "0"
         Label16.Text = "0"
         Label12.Text = "0"
+        Label23.Text = "0"
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
@@ -82,9 +83,11 @@
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         Timer1.Enabled = True
         Timer2.Enabled = True
+        Timer3.Enabled = True
         Label7.Text = "0"
         Label1.Text = "0"
         Label15.Text = "0"
+        Label23.Text = "0"
         Label16.Text = "0"
         Label12.Text = "0"
     End Sub
@@ -93,6 +96,7 @@
         If TextBox1.Text = Label12.Text Then
             Timer1.Enabled = False
             Timer2.Enabled = False
+            Timer3.Enabled = False
             TextBox1.ReadOnly = False
             ProgressBar1.Value = 0
             ProgressBar1.Visible = False
@@ -101,5 +105,11 @@
         End If
     End Sub
 
+    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+        Label23.Text = Label23.Text + 1
+    End Sub
 End Class

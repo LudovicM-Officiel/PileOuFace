@@ -14,10 +14,10 @@ Option Explicit On
 
 Namespace My
     
-    'NOTE: This file is auto-generated; do not modify it directly.  To make changes,
-    ' or if you encounter build errors in this file, go to the Project Designer
-    ' (go to Project Properties or double-click the My Project node in
-    ' Solution Explorer), and make changes on the Application tab.
+    'REMARQUE : Ce fichier étant généré automatiquement, ne le modifiez pas directement.  Pour apporter des modifications,
+    ' ou si vous rencontrez des erreurs de build dans ce fichier, accédez au Concepteur de projets
+    ' (allez dans les propriétés du projet ou double-cliquez sur le nœud My Project dans
+    ' l'Explorateur de solutions), puis apportez vos modifications sous l'onglet Application.
     '
     Partial Friend Class MyApplication
         
@@ -34,5 +34,11 @@ Namespace My
         Protected Overrides Sub OnCreateMainForm()
             Me.MainForm = Global.Pile_ou_face.Form1
         End Sub
+        
+        <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
+        Protected Overrides Function OnInitialize(ByVal commandLineArgs As System.Collections.ObjectModel.ReadOnlyCollection(Of String)) As Boolean
+            Me.MinimumSplashScreenDisplayTime = 0
+            Return MyBase.OnInitialize(commandLineArgs)
+        End Function
     End Class
 End Namespace

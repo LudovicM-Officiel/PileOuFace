@@ -23,6 +23,7 @@ Partial Class Form3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -54,6 +55,9 @@ Partial Class Form3
         Me.Label20 = New System.Windows.Forms.Label()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label23 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -168,11 +172,11 @@ Partial Class Form3
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(17, 256)
+        Me.Label9.Location = New System.Drawing.Point(18, 260)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(255, 13)
+        Me.Label9.Size = New System.Drawing.Size(250, 13)
         Me.Label9.TabIndex = 20
-        Me.Label9.Text = "Créé et développé par LudovicM entre 2018 et 2020"
+        Me.Label9.Text = "Créé et développé par LudovicM - Modifié en 2024."
         '
         'Label10
         '
@@ -181,8 +185,8 @@ Partial Class Form3
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(454, 13)
         Me.Label10.TabIndex = 21
-        Me.Label10.Text = "................................................................................." & _
-            "...................................................................."
+        Me.Label10.Text = "................................................................................." &
+    "...................................................................."
         '
         'Label11
         '
@@ -296,8 +300,8 @@ Partial Class Form3
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(454, 13)
         Me.Label19.TabIndex = 33
-        Me.Label19.Text = "................................................................................." & _
-            "...................................................................."
+        Me.Label19.Text = "................................................................................." &
+    "...................................................................."
         '
         'Label20
         '
@@ -326,12 +330,36 @@ Partial Class Form3
         Me.Label21.Text = "Label21"
         Me.Label21.Visible = False
         '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(88, 273)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(107, 13)
+        Me.Label22.TabIndex = 37
+        Me.Label22.Text = "Secondes écoulées: "
+        '
+        'Timer3
+        '
+        Me.Timer3.Interval = 1000
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(135, 286)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(13, 13)
+        Me.Label23.TabIndex = 38
+        Me.Label23.Text = "0"
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(284, 307)
+        Me.ClientSize = New System.Drawing.Size(284, 303)
+        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Label20)
@@ -361,11 +389,13 @@ Partial Class Form3
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form3"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "[Mini-Jeu]"
+        Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -403,4 +433,7 @@ Partial Class Form3
     Friend WithEvents Label20 As System.Windows.Forms.Label
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents Label21 As System.Windows.Forms.Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Timer3 As Timer
+    Friend WithEvents Label23 As Label
 End Class

@@ -10,15 +10,32 @@ C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\bi
 C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.exe
 C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.xml
 C:\Users\carl\documents\visual studio 2010\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.pdb
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.exe
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.xml
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.pdb
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.exe
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.pdb
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\bin\Debug\Pile ou face.xml
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form1.resources
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form2.resources
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form3.resources
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form4.resources
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Resources.resources
-C:\Users\ludov\Desktop\usb\Projects\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbproj.GenerateResource.Cache
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\bin\Debug\Pile ou face.exe
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\bin\Debug\Pile ou face.pdb
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\bin\Debug\Pile ou face.xml
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbprojAssemblyReference.cache
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form1.resources
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form2.resources
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form3.resources
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form4.resources
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Resources.resources
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbproj.GenerateResource.cache
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbproj.CoreCompileInputs.cache
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.exe
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.xml
+F:\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.pdb
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\bin\Debug\Pile ou face.exe.config
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\bin\Debug\Pile ou face.exe
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\bin\Debug\Pile ou face.pdb
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\bin\Debug\Pile ou face.xml
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbproj.AssemblyReference.cache
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form1.resources
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form2.resources
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form3.resources
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Form4.resources
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile_ou_face.Resources.resources
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbproj.GenerateResource.cache
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.vbproj.CoreCompileInputs.cache
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.exe
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.xml
+D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.pdb
