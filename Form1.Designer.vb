@@ -69,7 +69,7 @@ Partial Class Form1
         Me.MinimizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Pile ou face ? 1.1"
+        Me.Text = "Pile ou face ? 1.2"
         Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()

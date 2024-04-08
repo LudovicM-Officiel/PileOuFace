@@ -81,15 +81,19 @@
     End Sub
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        Timer1.Enabled = True
-        Timer2.Enabled = True
-        Timer3.Enabled = True
-        Label7.Text = "0"
-        Label1.Text = "0"
-        Label15.Text = "0"
-        Label23.Text = "0"
-        Label16.Text = "0"
-        Label12.Text = "0"
+        If TextBox1.Text = "" Or TextBox1.Text = "0" Or TextBox1.Text = "00" Or TextBox1.Text = "000" Or TextBox1.Text = "0000" Or TextBox1.Text = "00000" Or TextBox1.Text = "000000" Or TextBox1.Text = "0000000" Then
+            MsgBox("La valeur ne peut être 0 ou vide!", vbExclamation + vbExclamation + vbDefaultButton2, "Pile ou face ? 1.2")
+        Else
+            Timer1.Enabled = True
+            Timer2.Enabled = True
+            Timer3.Enabled = True
+            Label7.Text = "0"
+            Label1.Text = "0"
+            Label15.Text = "0"
+            Label23.Text = "0"
+            Label16.Text = "0"
+            Label12.Text = "0"
+        End If
     End Sub
 
     Private Sub Timer2_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer2.Tick
@@ -111,5 +115,23 @@
 
     Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
         Label23.Text = Label23.Text + 1
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
+
+    Private Sub TextBox1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
+
+        '97 - 122 = Ascii codes for simple letters
+        '65 - 90  = Ascii codes for capital letters
+        '48 - 57  = Ascii codes for numbers
+
+        If Asc(e.KeyChar) <> 8 Then
+            If Asc(e.KeyChar) < 48 Or Asc(e.KeyChar) > 57 Then
+                e.Handled = True
+            End If
+        End If
+
     End Sub
 End Class

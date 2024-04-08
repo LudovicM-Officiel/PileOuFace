@@ -193,9 +193,9 @@ Partial Class Form3
         Me.Label11.AutoSize = True
         Me.Label11.Location = New System.Drawing.Point(9, 143)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(40, 13)
+        Me.Label11.Size = New System.Drawing.Size(37, 13)
         Me.Label11.TabIndex = 22
-        Me.Label11.Text = "Partie :"
+        Me.Label11.Text = "Total :"
         '
         'Label12
         '
@@ -284,9 +284,11 @@ Partial Class Form3
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(12, 185)
+        Me.TextBox1.MaxLength = 7
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(141, 20)
         Me.TextBox1.TabIndex = 32
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Timer2
         '

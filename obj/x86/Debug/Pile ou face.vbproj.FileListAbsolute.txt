@@ -39,3 +39,18 @@ D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face
 D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.exe
 D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.xml
 D:\usb\usb\trié\projet vbs\Pile ou face\Pile ou face\obj\x86\Debug\Pile ou face.pdb
+C:\pileouface\Pile ou face.exe.config
+C:\pileouface\Pile ou face.exe
+C:\pileouface\Pile ou face.pdb
+C:\pileouface\Pile ou face.xml
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.vbproj.AssemblyReference.cache
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Form1.resources
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Form2.resources
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Form3.resources
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Form4.resources
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Resources.resources
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.vbproj.GenerateResource.cache
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.vbproj.CoreCompileInputs.cache
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.exe
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.xml
+D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.pdb
