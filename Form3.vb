@@ -105,7 +105,7 @@
             ProgressBar1.Value = 0
             ProgressBar1.Visible = False
             Label21.Visible = False
-            MsgBox("Partie automatique finis !")
+            MsgBox("Parti automatique fini !")
         End If
     End Sub
 
