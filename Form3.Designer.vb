@@ -58,6 +58,7 @@ Partial Class Form3
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Label23 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -327,9 +328,9 @@ Partial Class Form3
         Me.Label21.AutoSize = True
         Me.Label21.Location = New System.Drawing.Point(159, 214)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(45, 13)
+        Me.Label21.Size = New System.Drawing.Size(33, 13)
         Me.Label21.TabIndex = 36
-        Me.Label21.Text = "Label21"
+        Me.Label21.Text = "100%"
         Me.Label21.Visible = False
         '
         'Label22
@@ -354,12 +355,22 @@ Partial Class Form3
         Me.Label23.TabIndex = 38
         Me.Label23.Text = "0"
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(195, 210)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(80, 20)
+        Me.Button4.TabIndex = 39
+        Me.Button4.Text = "STOP"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.ClientSize = New System.Drawing.Size(284, 303)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
@@ -438,4 +449,5 @@ Partial Class Form3
     Friend WithEvents Label22 As Label
     Friend WithEvents Timer3 As Timer
     Friend WithEvents Label23 As Label
+    Friend WithEvents Button4 As Button
 End Class

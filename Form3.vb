@@ -82,11 +82,12 @@
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         If TextBox1.Text = "" Or TextBox1.Text = "0" Or TextBox1.Text = "00" Or TextBox1.Text = "000" Or TextBox1.Text = "0000" Or TextBox1.Text = "00000" Or TextBox1.Text = "000000" Or TextBox1.Text = "0000000" Then
-            MsgBox("La valeur ne peut être 0 ou vide!", vbExclamation + vbExclamation + vbDefaultButton2, "Pile ou face ? 1.2")
+            MsgBox("La valeur ne peut être 0 ou vide!", vbExclamation + vbExclamation + vbDefaultButton2, "Pile ou face ? 1.3")
         Else
             Timer1.Enabled = True
             Timer2.Enabled = True
             Timer3.Enabled = True
+            Button3.Enabled = False
             Label7.Text = "0"
             Label1.Text = "0"
             Label15.Text = "0"
@@ -101,11 +102,12 @@
             Timer1.Enabled = False
             Timer2.Enabled = False
             Timer3.Enabled = False
+            Button3.Enabled = True
             TextBox1.ReadOnly = False
             ProgressBar1.Value = 0
             ProgressBar1.Visible = False
             Label21.Visible = False
-            MsgBox("Partie automatique finis !")
+            MsgBox("Parti automatique fini !")
         End If
     End Sub
 
@@ -132,6 +134,23 @@
                 e.Handled = True
             End If
         End If
+
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Timer1.Enabled = False
+        Timer2.Enabled = False
+        Timer3.Enabled = False
+        TextBox1.ReadOnly = False
+        ProgressBar1.Value = 0
+        ProgressBar1.Visible = False
+        Label21.Visible = False
+        Timer2.Enabled = False
+        Label23.Text = "0"
+        Button3.Enabled = True
+    End Sub
+
+    Private Sub Label23_Click(sender As Object, e As EventArgs) Handles Label23.Click
 
     End Sub
 End Class
