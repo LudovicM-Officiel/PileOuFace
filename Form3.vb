@@ -136,6 +136,7 @@
         End If
 
     End Sub
+<<<<<<< HEAD
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Timer1.Enabled = False
@@ -154,3 +155,6 @@
 
     End Sub
 End Class
+=======
+End Class
+>>>>>>> 3829534b389b8f4c0653f3280ef8cfcc32a5ca0c
