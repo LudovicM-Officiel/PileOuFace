@@ -47,7 +47,6 @@ D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou f
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Form1.resources
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Form2.resources
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Form3.resources
-D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Form4.resources
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile_ou_face.Resources.resources
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.vbproj.GenerateResource.cache
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.vbproj.CoreCompileInputs.cache

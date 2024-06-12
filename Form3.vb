@@ -2,56 +2,23 @@
 
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Dim pof As Integer = CInt(Int((8 * Rnd()) + 0))
+        Dim pof As Integer = CInt(Int((2 * Rnd()) + 1))
         Label2.Text = pof
-        If Label2.Text = 0 Then
-            PictureBox1.Image = My.Resources.pile
-        End If
         If Label2.Text = 1 Then
             PictureBox1.Image = My.Resources.pile
         End If
         If Label2.Text = 2 Then
-            PictureBox1.Image = My.Resources.pile
-        End If
-        If Label2.Text = 3 Then
-            PictureBox1.Image = My.Resources.pile
-        End If
-        If Label2.Text = 4 Then
             PictureBox1.Image = My.Resources.face
         End If
-        If Label2.Text = 5 Then
-            PictureBox1.Image = My.Resources.face
-        End If
-        If Label2.Text = 6 Then
-            PictureBox1.Image = My.Resources.face
-        End If
-        If Label2.Text = 7 Then
-            PictureBox1.Image = My.Resources.face
-        End If
-        If Label2.Text = 0 Then
-            Label4.Text = "Pile"
-        End If
+
+
         If Label2.Text = 1 Then
             Label4.Text = "Pile"
         End If
         If Label2.Text = 2 Then
-            Label4.Text = "Pile"
-        End If
-        If Label2.Text = 3 Then
-            Label4.Text = "Pile"
-        End If
-        If Label2.Text = 4 Then
             Label4.Text = "Face"
         End If
-        If Label2.Text = 5 Then
-            Label4.Text = "Face"
-        End If
-        If Label2.Text = 6 Then
-            Label4.Text = "Face"
-        End If
-        If Label2.Text = 7 Then
-            Label4.Text = "Face"
-        End If
+
         If ComboBox1.Text = Label4.Text Then
             Label1.Text = Label1.Text + 1
         Else
@@ -82,7 +49,7 @@
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         If TextBox1.Text = "" Or TextBox1.Text = "0" Or TextBox1.Text = "00" Or TextBox1.Text = "000" Or TextBox1.Text = "0000" Or TextBox1.Text = "00000" Or TextBox1.Text = "000000" Or TextBox1.Text = "0000000" Then
-            MsgBox("La valeur ne peut être 0 ou vide!", vbExclamation + vbExclamation + vbDefaultButton2, "Pile ou face ? 1.3")
+            MsgBox("La valeur ne peut être 0 ou vide!", vbExclamation + vbDefaultButton2, "Pile ou face ? 1.4")
         Else
             Timer1.Enabled = True
             Timer2.Enabled = True
@@ -107,7 +74,7 @@
             ProgressBar1.Value = 0
             ProgressBar1.Visible = False
             Label21.Visible = False
-            MsgBox("Parti automatique fini !")
+            MsgBox("Parti automatique fini !", vbExclamation + vbDefaultButton2, "Pile ou face ?")
         End If
     End Sub
 
@@ -154,6 +121,3 @@
 
     End Sub
 End Class
-=======
-End Class
->>>>>>> 3829534b389b8f4c0653f3280ef8cfcc32a5ca0c

@@ -35,9 +35,9 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 88)
+        Me.Button1.Location = New System.Drawing.Point(12, 91)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(196, 23)
+        Me.Button1.Size = New System.Drawing.Size(196, 32)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Lancer la pièce"
         Me.Button1.UseVisualStyleBackColor = True
@@ -85,7 +85,7 @@ Partial Class Form2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(220, 121)
+        Me.ClientSize = New System.Drawing.Size(220, 135)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox1)
