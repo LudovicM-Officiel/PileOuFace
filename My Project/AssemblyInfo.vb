@@ -10,12 +10,12 @@ Imports System.Runtime.InteropServices
 
 ' Passez en revue les valeurs des attributs de l'assembly
 
-<Assembly: AssemblyTitle("Pile ou face ? 1.4 - LudovicM")>
-<Assembly: AssemblyDescription("Pile ou face ? 1.4 - LudovicM")>
-<Assembly: AssemblyCompany("Pile ou face ? 1.4 - LudovicM")>
-<Assembly: AssemblyProduct("Pile ou face ? 1.4 - LudovicM")>
+<Assembly: AssemblyTitle("Pile ou face ? 1.5 - LudovicM")>
+<Assembly: AssemblyDescription("Pile ou face ? 1.5 - LudovicM")>
+<Assembly: AssemblyCompany("Pile ou face ? 1.5 - LudovicM")>
+<Assembly: AssemblyProduct("Pile ou face ? 1.5 - LudovicM")>
 <Assembly: AssemblyCopyright("Copyright © LudovicM - Modifié en 2024.")>
-<Assembly: AssemblyTrademark("Pile ou face ? 1.3 - LudovicM")>
+<Assembly: AssemblyTrademark("Pile ou face ? 1.5 - LudovicM")>
 
 <Assembly: ComVisible(False)> 
 
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' en utilisant '*', comme indiqué ci-dessous :
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.4")>
-<Assembly: AssemblyFileVersion("1.0.0.4")>
+<Assembly: AssemblyVersion("1.0.0.5")>
+<Assembly: AssemblyFileVersion("1.0.0.5")>
 
 <Assembly: NeutralResourcesLanguageAttribute("fr")> 

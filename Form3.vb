@@ -120,4 +120,10 @@
     Private Sub Label23_Click(sender As Object, e As EventArgs) Handles Label23.Click
 
     End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        Form1.Show()
+        Me.Close()
+
+    End Sub
 End Class

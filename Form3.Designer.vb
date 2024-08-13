@@ -59,6 +59,7 @@ Partial Class Form3
         Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -210,7 +211,7 @@ Partial Class Form3
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(88, 129)
+        Me.Label13.Location = New System.Drawing.Point(138, 129)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(26, 13)
         Me.Label13.TabIndex = 24
@@ -219,7 +220,7 @@ Partial Class Form3
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(88, 116)
+        Me.Label14.Location = New System.Drawing.Point(138, 116)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(26, 13)
         Me.Label14.TabIndex = 25
@@ -228,7 +229,7 @@ Partial Class Form3
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(114, 116)
+        Me.Label15.Location = New System.Drawing.Point(164, 116)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(13, 13)
         Me.Label15.TabIndex = 26
@@ -237,7 +238,7 @@ Partial Class Form3
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Location = New System.Drawing.Point(114, 129)
+        Me.Label16.Location = New System.Drawing.Point(164, 129)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(13, 13)
         Me.Label16.TabIndex = 27
@@ -246,7 +247,7 @@ Partial Class Form3
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(138, 116)
+        Me.Label17.Location = New System.Drawing.Point(188, 116)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(15, 13)
         Me.Label17.TabIndex = 28
@@ -255,7 +256,7 @@ Partial Class Form3
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(138, 129)
+        Me.Label18.Location = New System.Drawing.Point(188, 129)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(15, 13)
         Me.Label18.TabIndex = 29
@@ -263,7 +264,7 @@ Partial Class Form3
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(151, 116)
+        Me.PictureBox2.Location = New System.Drawing.Point(201, 116)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(117, 37)
         Me.PictureBox2.TabIndex = 30
@@ -285,7 +286,7 @@ Partial Class Form3
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(12, 185)
-        Me.TextBox1.MaxLength = 7
+        Me.TextBox1.MaxLength = 9
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(141, 20)
         Me.TextBox1.TabIndex = 32
@@ -364,12 +365,22 @@ Partial Class Form3
         Me.Button4.Text = "STOP"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(80, 302)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(123, 25)
+        Me.Button5.TabIndex = 40
+        Me.Button5.Text = "Menu principal"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(284, 303)
+        Me.ClientSize = New System.Drawing.Size(281, 335)
+        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label22)
@@ -450,4 +461,5 @@ Partial Class Form3
     Friend WithEvents Timer3 As Timer
     Friend WithEvents Label23 As Label
     Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class

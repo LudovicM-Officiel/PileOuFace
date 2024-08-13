@@ -30,6 +30,7 @@ Partial Class Form2
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -80,12 +81,22 @@ Partial Class Form2
         Me.Label4.Size = New System.Drawing.Size(0, 13)
         Me.Label4.TabIndex = 7
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(12, 129)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(196, 32)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "Menu principal"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(220, 135)
+        Me.ClientSize = New System.Drawing.Size(220, 169)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox1)
@@ -109,4 +120,5 @@ Partial Class Form2
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As Button
 End Class
