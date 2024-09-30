@@ -40,7 +40,7 @@ Partial Class Form2
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(196, 32)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Lancer la pièce"
+        Me.Button1.Text = "Lancer une pièce"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Label2

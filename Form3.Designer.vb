@@ -46,7 +46,6 @@ Partial Class Form3
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Button3 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
@@ -61,7 +60,6 @@ Partial Class Form3
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -247,7 +245,7 @@ Partial Class Form3
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(188, 116)
+        Me.Label17.Location = New System.Drawing.Point(194, 116)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(15, 13)
         Me.Label17.TabIndex = 28
@@ -256,19 +254,11 @@ Partial Class Form3
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Location = New System.Drawing.Point(188, 129)
+        Me.Label18.Location = New System.Drawing.Point(194, 129)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(15, 13)
         Me.Label18.TabIndex = 29
         Me.Label18.Text = "%"
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(201, 116)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(117, 37)
-        Me.PictureBox2.TabIndex = 30
-        Me.PictureBox2.TabStop = False
         '
         'Timer1
         '
@@ -390,7 +380,6 @@ Partial Class Form3
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
@@ -421,7 +410,6 @@ Partial Class Form3
         Me.Text = "[Mini-Jeu]"
         Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -448,7 +436,6 @@ Partial Class Form3
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents Label18 As System.Windows.Forms.Label
-    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents Button3 As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox

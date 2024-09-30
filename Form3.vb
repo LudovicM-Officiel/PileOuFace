@@ -1,4 +1,6 @@
-﻿Public Class Form3
+﻿Imports System.Reflection.Emit
+
+Public Class Form3
 
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
@@ -10,8 +12,6 @@
         If Label2.Text = 2 Then
             PictureBox1.Image = My.Resources.face
         End If
-
-
         If Label2.Text = 1 Then
             Label4.Text = "Pile"
         End If
@@ -26,7 +26,15 @@
         End If
         Label12.Text = Label12.Text + 1
         Label15.Text = Label1.Text * 100 / Label12.Text
+        Dim dblTranspo As Double
+        dblTranspo = Label15.Text
+        Label15.Text = Format(dblTranspo, "#,##0.00")
+        Me.Label15.Text = Me.Label15.Text
         Label16.Text = Label7.Text * 100 / Label12.Text
+        Dim dblTranspo2 As Double
+        dblTranspo2 = Label16.Text
+        Label16.Text = Format(dblTranspo2, "#,##0.00")
+        Me.Label16.Text = Me.Label16.Text
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -78,16 +86,8 @@
         End If
     End Sub
 
-    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
         Label23.Text = Label23.Text + 1
-    End Sub
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-
     End Sub
 
     Private Sub TextBox1_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
@@ -115,10 +115,6 @@
         Timer2.Enabled = False
         Label23.Text = "0"
         Button3.Enabled = True
-    End Sub
-
-    Private Sub Label23_Click(sender As Object, e As EventArgs) Handles Label23.Click
-
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
