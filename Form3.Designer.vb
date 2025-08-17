@@ -59,6 +59,7 @@ Partial Class Form3
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -90,6 +91,7 @@ Partial Class Form3
         '
         'PictureBox1
         '
+        Me.PictureBox1.Image = Global.Pile_ou_face.My.Resources.Resources.pile
         Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(70, 70)
@@ -119,9 +121,9 @@ Partial Class Form3
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(9, 116)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(48, 13)
+        Me.Label5.Size = New System.Drawing.Size(45, 13)
         Me.Label5.TabIndex = 13
-        Me.Label5.Text = "Gagner :"
+        Me.Label5.Text = "Gagné :"
         '
         'Label6
         '
@@ -171,12 +173,12 @@ Partial Class Form3
         '
         'Label9
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(18, 260)
+        Me.Label9.Location = New System.Drawing.Point(12, 341)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(250, 13)
+        Me.Label9.Size = New System.Drawing.Size(263, 15)
         Me.Label9.TabIndex = 20
         Me.Label9.Text = "Créé et développé par LudovicM - Modifié en 2024."
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label10
         '
@@ -326,12 +328,12 @@ Partial Class Form3
         '
         'Label22
         '
-        Me.Label22.AutoSize = True
-        Me.Label22.Location = New System.Drawing.Point(88, 273)
+        Me.Label22.Location = New System.Drawing.Point(12, 356)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(107, 13)
+        Me.Label22.Size = New System.Drawing.Size(257, 13)
         Me.Label22.TabIndex = 37
         Me.Label22.Text = "Secondes écoulées: "
+        Me.Label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Timer3
         '
@@ -339,12 +341,12 @@ Partial Class Form3
         '
         'Label23
         '
-        Me.Label23.AutoSize = True
-        Me.Label23.Location = New System.Drawing.Point(135, 286)
+        Me.Label23.Location = New System.Drawing.Point(12, 369)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(13, 13)
+        Me.Label23.Size = New System.Drawing.Size(257, 13)
         Me.Label23.TabIndex = 38
         Me.Label23.Text = "0"
+        Me.Label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Button4
         '
@@ -357,19 +359,30 @@ Partial Class Form3
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(80, 302)
+        Me.Button5.Location = New System.Drawing.Point(15, 385)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(123, 25)
+        Me.Button5.Size = New System.Drawing.Size(254, 25)
         Me.Button5.TabIndex = 40
         Me.Button5.Text = "Menu principal"
         Me.Button5.UseVisualStyleBackColor = True
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(12, 249)
+        Me.TextBox2.Multiline = True
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
+        Me.TextBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
+        Me.TextBox2.Size = New System.Drawing.Size(263, 89)
+        Me.TextBox2.TabIndex = 41
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.ClientSize = New System.Drawing.Size(281, 335)
+        Me.ClientSize = New System.Drawing.Size(281, 422)
+        Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label23)
@@ -449,4 +462,5 @@ Partial Class Form3
     Friend WithEvents Label23 As Label
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents TextBox2 As TextBox
 End Class

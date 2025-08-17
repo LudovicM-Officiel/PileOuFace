@@ -53,3 +53,18 @@ D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou f
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.exe
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.xml
 D:\usb\usb\Projects\Pile ou face\Pile ou face\PileOuFace\obj\x86\Debug\Pile ou face.pdb
+D:\PileOuFace-main\obj\x86\Debug\Pile ou face.vbproj.AssemblyReference.cache
+D:\PileOuFace-main\obj\x86\Debug\Pile ou face.exe.config
+D:\PileOuFace-main\obj\x86\Debug\Pile ou face.exe
+D:\PileOuFace-main\obj\x86\Debug\Pile ou face.xml
+D:\PileOuFace-main\obj\x86\Debug\Pile ou face.pdb
+D:\PileOuFace-main\obj\x86\Debug\Pile_ou_face.Form1.resources
+D:\PileOuFace-main\obj\x86\Debug\Pile_ou_face.Form2.resources
+D:\PileOuFace-main\obj\x86\Debug\Pile_ou_face.Form3.resources
+D:\PileOuFace-main\obj\x86\Debug\Pile_ou_face.Resources.resources
+D:\PileOuFace-main\obj\x86\Debug\Pile ou face.vbproj.GenerateResource.cache
+D:\PileOuFace-main\obj\x86\Debug\Pile ou face.vbproj.CoreCompileInputs.cache
+D:\PileOuFace-main\bin\Debug\Pile ou face.exe.config
+D:\PileOuFace-main\bin\Debug\Pile ou face.exe
+D:\PileOuFace-main\bin\Debug\Pile ou face.pdb
+D:\PileOuFace-main\bin\Debug\Pile ou face.xml

@@ -35,6 +35,8 @@ Public Class Form3
         dblTranspo2 = Label16.Text
         Label16.Text = Format(dblTranspo2, "#,##0.00")
         Me.Label16.Text = Me.Label16.Text
+
+        TextBox2.Text = Label4.Text + ", " + TextBox2.Text
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -44,6 +46,7 @@ Public Class Form3
         Label16.Text = "0"
         Label12.Text = "0"
         Label23.Text = "0"
+        TextBox2.Text = ""
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
@@ -69,6 +72,7 @@ Public Class Form3
             Label23.Text = "0"
             Label16.Text = "0"
             Label12.Text = "0"
+            TextBox2.Text = ""
         End If
     End Sub
 
@@ -82,7 +86,7 @@ Public Class Form3
             ProgressBar1.Value = 0
             ProgressBar1.Visible = False
             Label21.Visible = False
-            MsgBox("Parti automatique fini !", vbExclamation + vbDefaultButton2, "Pile ou face ?")
+            MsgBox("Parti automatique fini !", vbExclamation + vbDefaultButton2, "Pile ou face")
         End If
     End Sub
 
@@ -120,6 +124,10 @@ Public Class Form3
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         Form1.Show()
         Me.Close()
+
+    End Sub
+
+    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles Label9.Click
 
     End Sub
 End Class

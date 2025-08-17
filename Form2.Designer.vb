@@ -54,6 +54,7 @@ Partial Class Form2
         '
         'PictureBox1
         '
+        Me.PictureBox1.Image = Global.Pile_ou_face.My.Resources.Resources.pile
         Me.PictureBox1.Location = New System.Drawing.Point(16, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(70, 70)
